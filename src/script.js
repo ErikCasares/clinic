@@ -1,5 +1,4 @@
-const toastElList = document.querySelectorAll('.toast')
-const toastList = [...toastElList].map(toastEl => new bootstrap.Toast(toastEl, option))
+
 
 
 
@@ -13,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const username = form.username.value;
         const password = form.password.value;
 
-        if (username === 'admin' && password === 'password') {
+        if (username  && password === 'password') {
             message.textContent = 'Login successful';
             message.style.color = 'green';
             // Redirigir a la página de dashboard o perfil

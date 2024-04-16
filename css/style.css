@@ -2,12 +2,18 @@ body {
     padding: 0 10%;
     display: flex;
     flex-direction: column;
-    background-color: #bdeaf8;
+    background-color: #f4f4f4;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #ffffffa4;
 }
 
 main .col {
@@ -25,7 +31,11 @@ main .col {
     border-color: #ffffffa4;
     background-color: rgb(61, 167, 202);
 }
-
+.noticia{
+    background-color: rgba(61, 167, 202, 0.555);
+    margin: 1rem;
+    padding: 1rem;
+}
 
 
 footer {
