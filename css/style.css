@@ -61,6 +61,10 @@ footer {
         padding: 0;
         margin: 0;
     }
+    a{
+        color: black;
+        font-weight: bolder;
+    }
 }
 
 .foot {
