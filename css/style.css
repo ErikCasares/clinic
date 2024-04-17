@@ -11,9 +11,7 @@ main {
     align-items: center;
     margin: 1rem;
     padding: 1rem;
-    border-radius: 10px;
-    border: 1px solid;
-    border-color: #ffffffa4;
+
 }
 
 main .col {
@@ -36,7 +34,12 @@ main .col {
     margin: 1rem;
     padding: 1rem;
 }
-
+.treatmen{
+    background-color: rgba(61, 167, 202, 0.555);
+    margin: 1rem;
+    padding: 1rem;
+    
+}
 
 footer {
     grid-column: 1/3;
